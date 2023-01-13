@@ -3,9 +3,9 @@ import pickle
 from joblib import Parallel, delayed
 import numpy as np
 from sklearn.model_selection import StratifiedKFold
-#from sklearn.svm import SVC
+from sklearn.svm import SVC
 #from sklearn.ensemble import RandomForestClassifier
-import xgboost
+#import xgboost
 
 from sklearn.preprocessing import StandardScaler
 from imblearn.pipeline import Pipeline
