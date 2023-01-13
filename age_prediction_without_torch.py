@@ -58,9 +58,9 @@ if __name__ == '__main__':
     steps = [('vec',Vectorizer()),
             ('rus',RandomUnderSampler(random_state=param['random_state'])),
             ('scale',StandardScaler()),
-            ('xgb', xgboost.XGBClassifier(use_label_encoder=False, eval_metric='mlogloss'))
+            #('xgb', xgboost.XGBClassifier(use_label_encoder=False, eval_metric='mlogloss'))
             #('rf', RandomForestClassifier())
-            #('svc',SVC(probability=True))
+            ('svc',SVC(probability=True))
             ]
 
     y_preds = []
