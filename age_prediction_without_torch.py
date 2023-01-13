@@ -115,10 +115,10 @@ if __name__ == '__main__':
             y_preds.append([w_r[1] for w_r in w_results])
             y_trues.append([w_r[2] for w_r in w_results])
 
-    with open(outfolder + '/xgb_age_group_y_preds.pkl', 'wb') as f:
+    with open(outfolder + '/age_group_y_preds.pkl', 'wb') as f:
             pickle.dump(y_preds, f, pickle.HIGHEST_PROTOCOL)
 
-    with open(outfolder + '/xgb_age_group_y_trues.pkl', 'wb') as f:
+    with open(outfolder + '/age_group_y_trues.pkl', 'wb') as f:
             pickle.dump(y_trues, f, pickle.HIGHEST_PROTOCOL)
 
 
