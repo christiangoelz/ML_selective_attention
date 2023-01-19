@@ -1,2 +1,2 @@
 # ML_selective_attention
-Code to paper: Using machine learning to characterize electrophysiological correlates of selective attention across the lifespan
+Code to paper: Classification of age groups and task conditions provides additional evidence for differences in electrophysiological correlates of inhibitory control across the lifespan
